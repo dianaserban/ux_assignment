@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Diana's Portofolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body>
+      <div class="header">
+         <!--Here is the menu section-->
+         <div class='section-menu menu'>
+            <!--Sidebar Menu-->
+            <div id="mySidenav" class="sidenav">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="portofolio.html">Portofolio</a>
+               <a href="contact.html">Contact</a>
+            </div>
+            <div class="topnav">
+               <span class="btn-expand;" onclick="openNav()">☰ Diana's Portofolio</span>
+               <div class="pull-right">
+                  <a href="index.html">Home</a>
+                  <a href="about.html">About</a>
+                  <a href="portofolio.html">Portofolio</a>
+                  <a href="contact.html">Contact</a>
+                  <span><b>Hire Me</b></span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <h2>Check out the latest projects:</h2>
+      </div>
+      <div class="row">
+         <div class="column-3">
+            <img src="img/projects/1.jpg" alt="design_image"  class="project-img"   />
+            <p> It encompasses several different aspects, including webpage layout, content production, and graphic design.</p>
+            <div class="button">Learn More</div>
+         </div>
+         <div class="column-3">
+            <img src="img/projects/2.jpg" alt="design_image"  class="project-img"   />
+            <p>Coding is what makes it possible for us to create computer software, apps and websites.</p>
+            <div class="button">Learn More</div>
+         </div>
+         <div class="column-3">
+            <img src="img/projects/3.jpg" alt="design_image" class="project-img"  />
+            <p>Interaction design is an important component within the giant umbrella of user experience (UX) design.</p>
+            <div class="button">Learn More</div>
+         </div>
+      </div>
+      <hr>
+      <div class="row">
+         <div class="column-3">
+            <img src="img/projects/4.jpg" alt="design_image"  class="project-img"   />
+            <p> It encompasses several different aspects, including webpage layout, content production, and graphic design.</p>
+            <div class="button">Learn More</div>
+         </div>
+         <div class="column-3">
+            <img src="img/projects/5.jpg" alt="design_image"  class="project-img"   />
+            <p>Coding is what makes it possible for us to create computer software, apps and websites.</p>
+            <div class="button">Learn More</div>
+         </div>
+         <div class="column-3">
+            <img src="img/projects/6.jpg" alt="design_image" class="project-img"  />
+            <p>Interaction design is an important component within the giant umbrella of user experience (UX) design.</p>
+            <div class="button">Learn More</div>
+         </div>
+      </div>
+      <div class="footer">
+         <p>Designed by Diana Serban</p>
+      </div>
+      <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "40%";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+   </body>
+</html>

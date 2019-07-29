@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Diana's Portofolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="style.css" />
+   </head>
+   <body>
+      <div class="header">
+         <!--Here is the menu section-->
+         <div class='section-menu menu'>
+            <!--Sidebar Menu-->
+            <div id="mySidenav" class="sidenav">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+               <a href="index.html">Home</a>
+               <a href="about.html">About</a>
+               <a href="portofolio.html">Portofolio</a>
+               <a href="contact.html">Contact</a>
+            </div>
+            <div class="topnav">
+               <span class="btn-expand;" onclick="openNav()">☰ Diana's Portofolio</span>
+               <div class="pull-right">
+                  <a href="index.html">Home</a>
+                  <a href="about.html">About</a>
+                  <a href="portofolio.html">Portofolio</a>
+                  <a href="contact.html">Contact</a>
+                  <span><b>Hire Me</b></span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row color-white">
+         <h2>Please feel free to contact me at </h2>
+         <h2><a href="tel:555-555-5555">555-545-5234</a> or contact at </h2>
+         <h2>email <a href="mailto:dianserban@diana.com">dianserban@diana.com</a></h2>
+         <form action="/action_page.php">
+            <label>First name:</label><br>
+            <input type="text" name="firstname" placeholder="Jane">
+            <br>
+            <label>Last name:</label><br>
+            <input type="text" name="lastname" placeholder="Doe">
+            <br><br>
+            <input type="submit" value="Submit">
+         </form>
+      </div>
+      <div class="footer">
+         <p>Designed by Diana Serban</p>
+      </div>
+      <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "40%";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+   </body>
+</html>
